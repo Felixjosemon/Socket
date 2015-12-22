@@ -19,7 +19,7 @@ $input = socket_read($spawn, 1024) or die("Could not read input\n");
 $input = trim($input);
 echo "Client Message : ".$input;
 // reverse client input and send back
-$output = "Hello ".($input) . "\n";
+$output = "Hello ".($input) ."Nice to meet you"."\n";
 socket_write($spawn, $output, strlen ($output)) or die("Could not write output\n");
 // close sockets
 socket_close($spawn);
