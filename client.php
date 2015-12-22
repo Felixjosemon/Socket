@@ -1,6 +1,6 @@
 <?php
 $host    = "127.0.0.1";//Doesnt matter what you give
-$port    = 25003; //ditto
+$port    = 2400; //ditto
 $message = "Felix Josemon";
 echo "Message To server :".$message;
 // create socket
